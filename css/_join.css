@@ -1,0 +1,93 @@
+.join {
+    position: relative;
+    overflow: hidden;
+    background: #000 url(../images/bubbleackground.jpg) center center/ cover no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: auto;
+}
+
+.join__content {
+    max-width: 661px;
+    width: 100%;
+    text-align: center;
+}
+
+.join__inner {
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.join__title-box {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.join__title {
+    font-weight: 800;
+    /* font-size: 124px; */
+    font-size: calc(var(--index) * 4.3);
+    line-height: 90%;
+}
+
+.join__title span {
+    display: block;
+}
+
+.join__subtitle {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 30px;
+    font-size: calc(var(--index) * 1.1);
+    line-height: 100%;
+}
+
+.join__desc {
+    font-weight: 500;
+    /* font-size: 24px; */
+    font-size: calc(var(--index) * 0.84);
+    line-height: 115%;
+    text-transform: uppercase;
+    padding: 36px;
+    position: relative;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.join__desc-wrp {
+    position: relative;
+}
+
+.join_desc--gray {
+    background: #4E525A;
+    text-align: left;
+    padding-right: 115px;
+}
+
+.join__desc-wrp img {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+}
+
+.join__button {
+    margin-top: 20px;
+}
+
+.join__imgs {
+    position: absolute;
+    right: 0;
+    background: url(../images/solderBG.png) center center / cover no-repeat;
+    height: calc(100% - 200px);
+    max-width: 900px;
+    /* width: calc(var(--index) * 31); */
+    width: 48%;
+}
+
+.join__img {
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    width: calc(var(--index) * 35);
+}

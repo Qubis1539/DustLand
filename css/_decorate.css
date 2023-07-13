@@ -1,0 +1,43 @@
+.hexagon {
+    clip-path: polygon(25px 0%, calc(100% - 25px) 0%, 100% 50%, calc(100% - 25px) 100%, 25px 100%, 0% 50%);
+}
+
+.cutAngle-left-top {
+    clip-path: polygon(20px 0, 100% 0, 100% 100%, 0 100%, 0 20px);
+}
+
+.cutAngle-left-bottom {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
+
+.hexa {
+    clip-path: polygon( 20px 25px, 32.61% 25px, calc(32.61% + 25px) 0, calc(67.39% - 25px) 0px, 67.39% 25px, calc(100% - 20px) 25px, 100% 45px, 100% calc(100% - 45px), calc(100% - 20px) calc(100% - 25px), 67.39% calc(100% - 25px), calc(67.39% - 25px) 100%, calc(32.61% + 25px) 100%, 32.61% calc(100% - 25px), 32.61% calc(100% - 25px), 20px calc(100% - 25px), 0 calc(100% - 45px), 0 45px);
+}
+
+.hexaTop {
+    clip-path: polygon( 20px 25px, 32.61% 25px, calc(32.61% + 25px) 0, calc(67.39% - 25px) 0px, 67.39% 25px, calc(100% - 20px) 25px, 100% 45px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 45px);
+}
+
+.hexaTopNoAngle {
+    clip-path: polygon( 0px 25px, 32.61% 25px, calc(32.61% + 25px) 0, calc(67.39% - 25px) 0px, 67.39% 25px, 100% 25px, 100% 100%, 0 100%);
+}
+
+.outerHex {
+    clip-path: polygon(0 0, 29.4% 0, calc(29.4% + 25px) 25px, calc(70.6% - 25px) 25px, 70.6% 0, 100% 0, 100% 100%, 70.6% 100%, calc(70.6% - 25px) calc(100% - 25px), calc(29.4% + 25px) calc(100% - 25px), 29.4% 100%, 0 100%);
+}
+
+.innerHex {
+    clip-path: polygon(0 0, 29.1% 0, calc(29.1% + 25px) 25px, calc(70.9% - 25px) 25px, 70.9% 0, 100% 0, 100% 100%, 70.9% 100%, calc(70.9% - 25px) calc(100% - 25px), calc(29.1% + 25px) calc(100% - 25px), 29.1% 100%, 0 100%);
+}
+
+.hexagonV {
+    clip-path: polygon(40px 0%, calc(100% - 40px) 0%, 100% 50%, calc(100% - 40px) 100%, 40px 100%, 0% 50%);
+}
+
+.triangle {
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    margin-left: 10px;
+    width: 50px;
+    height: 60px;
+    background: white;
+}

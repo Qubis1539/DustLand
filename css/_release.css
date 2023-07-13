@@ -1,0 +1,37 @@
+.release {
+    background: url(../images/sandBG.png) center center / cover no-repeat;
+    padding: 235px 0;
+    margin-bottom: -45px;
+}
+
+.release__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.release__title {
+    width: min-content;
+    margin-bottom: 6px;
+}
+
+.release__text {
+    margin-bottom: 66px;
+    /* font-size: 28px;
+     */
+    font-size: calc(var(--index) * 0.95);
+    font-family: Syne;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.release_button {
+    background: #000;
+}
+
+.release .button::after {
+    box-shadow: 0px 4px 100px black;
+}

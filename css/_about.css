@@ -1,0 +1,133 @@
+.about {
+    background: rgba(0, 11, 91, 0.2) url(../images/Фон.png) center center / 100% no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    /* background: rgba(1, 14, 112, 0.329); */
+}
+
+.about::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: radial-gradient(50% 50% at 50% 50%, #313439 0%, rgba(0, 11, 41, 0) 100%);
+    z-index: 3;
+}
+
+.about__inner {
+    /* background: white; */
+    position: relative;
+    z-index: 4;
+    flex-direction: column;
+}
+
+.about__title {
+    margin-bottom: 60px;
+}
+
+.about__content {
+    position: relative;
+    background: #FFF;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: calc(var(--index) * 0.85);
+    line-height: 160%;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.about__content::before,
+.about__content::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 70%;
+    background: #FFF;
+    z-index: 5;
+}
+
+.about__content::before {
+    left: 0;
+}
+
+.about__content::after {
+    right: 0;
+}
+
+.about__text {
+    background: #1A1A1A;
+    padding: 81px 70px;
+    /* width: calc(100% - 8px);
+    height: calc(100% - 18px); */
+}
+
+.about__sub-content {
+    text-align: center;
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: calc(var(--index) * 1.4);
+    line-height: 120%;
+    text-transform: uppercase;
+    max-width: 1320px;
+    width: 100%;
+}
+
+.about__sub-content .about__text {
+    background: #4E525A;
+    padding-top: 91px;
+    padding-bottom: 56px;
+}
+
+.about__video {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    max-width: 1320px;
+    width: 100%;
+    z-index: 11;
+}
+
+.video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    z-index: 10;
+}
+
+.video::after {
+    position: absolute;
+    content: "";
+    width: 99%;
+    height: calc(100% - 90px);
+    box-shadow: 0px 0px 250px rgba(255, 142, 46, 0.3);
+    z-index: 9;
+}
+
+.video__button {
+    width: 160px;
+    height: 130px;
+    background: #4E525A;
+    position: absolute;
+    margin-bottom: 40px;
+}

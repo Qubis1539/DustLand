@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dust Land</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/gsap.min.js" defer></script>
+    <script src="../js/ScrollTrigger.min.js" defer></script>
+    <script src="../js/ScrollSmoother.min.js" defer></script>
+
+
+
+    <script src="../js/app.js" defer></script>
+    <script src="../js/clicker.js" defer></script>
+</head>
+
+<body>
+    <div class="main-wrp">
+        <div class="content-wrp">
+            <section class="section first flex">
+                <div class="wrapper flex">
+                    <header class="header flex">
+                        <div class="header__logo">
+                            <img src="../images/logo.png" alt="logo">
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav__list flex">
+                                <li class="nav__item flex" style="--navOffset: 4; --zIn:1">
+                                    <a href="#" class="nav__link hexagon flex">
+
+                                        <span class="flex hexagon">Home</span>
+                                    </a>
+                                    <div class="nav__condition"></div>
+                                </li>
+                                <li class="nav__item flex" style="--navOffset: 3; --zIn:2">
+                                    <a href="#" class="nav__link hexagon flex">
+
+                                        <span class="flex hexagon">Game</span>
+                                    </a>
+                                    <div class="nav__condition"></div>
+                                </li>
+                                <li class="nav__item flex" style="--navOffset: 2; --zIn:3">
+                                    <a href="#" class="nav__link hexagon flex">
+
+                                        <span class="flex hexagon">Features</span>
+                                    </a>
+                                    <div class="nav__condition"></div>
+                                </li>
+                                <li class="nav__item flex" style="--navOffset: 1; --zIn:4">
+                                    <a href="#" class="nav__link hexagon flex">
+
+                                        <span class="flex hexagon">Eng / Ru</span>
+                                    </a>
+                                    <div class="nav__condition"></div>
+                                </li>
+                                <li class="nav__item nav__item--active flex" style="--navOffset: 0; --zIn:5">
+                                    <a href="#" class="nav__link hexagon flex">
+
+                                        <span class="flex hexagon">Play the Beta</span>
+                                    </a>
+                                    <div class="nav__condition active"></div>
+
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+                <div class="wrapper title-wrapper flex">
+                    <div class="first__container flex">
+                        <div class="title first__title">
+                            <span class="title__span">TRY TO</span> SURVIVE
+                        </div>
+                        <p class="first__sub-title">
+                            Join the Beta Test Right Now <br> and Win valuable prizes!
+                        </p>
+                    </div>
+                </div>
+                <footer class="first__footer-up footer-up flex">
+                    <div class="footer-up__el flex">
+                        SOCIALS
+                        <ul class="footer-up__list flex social">
+                            <li class="social__item flex"><img src="../images/icons/discord.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/youtube.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/facebok.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/telegram.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/tweeter.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/instagram.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/reddit.svg" alt="" class="social__ico"></li>
+                        </ul>
+                    </div>
+                    <div class="footer-up__el flex">
+                        Register for Beta
+                    </div>
+                    <div class="footer-up__el flex">
+                        February 21-23th, 2023
+                    </div>
+                </footer>
+            </section>
+
+            <main>
+                <section class="section join">
+                    <div class="wrapper">
+                        <div class="join__inner flex">
+                            <div class="join__content">
+                                <div class="join__title-box">
+                                    <h1 class="join__title title">
+                                        <span class="title--small">
+                                            Participate in the open beta test of the
+                                        </span>
+                                        <span class="title--normal">
+                                            Dust land
+                                        </span> game
+                                    </h1>
+                                    <div class="join__subtitle">
+                                        And get 1 Battle Pass and a «Tester» skin as a gift!
+                                    </div>
+                                </div>
+                                <div class="join__desc cutAngle-left-top">
+                                    <p>Spend the most hours in the game, share your apocalyptic experience with your friends via social media, using the hashtag #dustland and get a Steam Gift Card!</p>
+                                </div>
+                                <div class="join__desc-wrp">
+                                    <div class="join__desc cutAngle-left-bottom join_desc--gray">
+                                        <p>The first 100 most active players will receive $20 Steam Gift Cards!</p>
+                                    </div>
+                                    <img src="../images/steamCards.png" alt="">
+                                </div>
+                                <div class="join__button button">
+                                    <button class="button__inner hexagon">
+                                        REGISTER NOW
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="join__imgs">
+                                <img src="../images/solder.png" alt="" class="join__img soilder">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section about">
+                    <div class="wrapper">
+                        <div class="about__inner flex">
+                            <h2 class="title about__title">About Game</h2>
+                            <div class="about__content outerHex flex">
+                                <div class="about__text innerHex">
+                                    <p>
+                                        DUSTLAND is a third-person looter-shooter. In the post-apocalyptic world, everyone has the only goal: to return alive after exploring the wasteland with as many valuable things as possible. 40 years ago a scientific catastrophe inflicted untold damage
+                                        to the world. Now the planet is suffering from the unbearable boiling heat and all living creatures have either mutated or lost their sanity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about__video-wrp video">
+                                <div class="about__video hexa flex">
+                                    <!-- <div class="video__pause video__button hexagonV flex">
+    
+                                    </div> -->
+                                    <div class="video__play video__button hexagonV flex">
+                                        <div class="triangle"></div>
+                                    </div>
+                                    <video src="../videos/Full Trailer _ Dustland Runner.mp4" height="100%" poster="../images/Видео.png"></video>
+                                </div>
+                            </div>
+                            <div class="about__content outerHex flex">
+                                <div class="about__text innerHex">
+                                    <p>
+                                        A few lucky survivors found shelter in the unfinished seed vault called “Yanmei”. They hope to give new birth to the world by clearing it of monsters and anomalies. One of the most dangerous world regions is called DUSTLAND. Around two miles of hostile
+                                        burnt ground. Ferocious sandstorms, recurrent anomalies and myriads of monsters… If mankind is destined to survive, people can’t but take up the challenge to clear this region.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about__sub-content hexaTop">
+                                <div class="about__text">
+                                    <p>
+                                        Don't miss your chance to experience the heart-pumping excitement of Dustland. Join the fight for survival today!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section features" id="features">
+                    <div class="features__inner">
+
+                        <div class="gallery-inside">
+                            <div class="gallery-inside__frame frame left">
+                                <div class="frame__content ">
+                                    <img src="../images/GasStantion (1) 1.png" alt="">
+                                </div>
+                                <div class="frame__content ">
+                                    <h3 class="frame__title">Decide on <span class="frame__title--orange frame__title--block">the ways</span></h3>
+                                    <p class="frame__text">to achieve your mission goal. But be on your guard, as the shortest path isn’t always the easiest…Will you dare?</p>
+                                </div>
+                            </div>
+                            <div class="gallery-inside__frame frame frame__bg">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame right">
+                                <div class="frame__content ">
+                                    <h3 class="frame__title">Own a unique <span class="frame__title--orange frame__title--block">arsenal!</span></h3>
+                                    <p class="frame__text">Use a weapon constructor to create super-powerful guns!</p>
+                                </div>
+                                <div class="frame__content ">
+                                    <img src="../images/Group 5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="gallery-inside__frame frame frame__bg">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame left">
+                                <div class="frame__content ">
+                                    <img src="../images/Group 6.png" alt="">
+                                </div>
+                                <div class="frame__content ">
+                                    <h3 class="frame__title"><span class="frame__title--orange ">Beware </span>of</h3>
+                                    <p class="frame__text">mutants, deadly beasts, and hostile gangs, many of which are cannibalistic…</p>
+                                </div>
+                            </div>
+                            <div class="gallery-inside__frame frame frame__bg">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame right">
+                                <div class="frame__content ">
+                                    <h3 class="frame__title"><span class="frame__title--block">Choose one</span> from the four <span class="frame__title--orange ">unique factions</span></h3>
+                                    <p class="frame__text">each with its own territories, where players can safely trade and collaborate.</p>
+                                </div>
+                                <div class="frame__content ">
+                                    <img src="../images/Group 4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="gallery-inside__frame frame frame__bg">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame">
+
+                            </div>
+                            <div class="gallery-inside__frame frame left">
+                                <div class="frame__content frame__content--relative">
+                                    <img src="../images/GasStantion.png" alt="">
+                                    <img src="../images/unreal-engine-logo 1.png" alt="" class="decor_ico" id="hiddenico">
+                                </div>
+                                <div class="frame__content ">
+                                    <h3 class="frame__title">Enjoy the<span class="frame__title--orange frame__title--block">stunning</span> graphics</h3>
+
+                                    <p class="frame__text">each with its own territories, where players can safely trade and collaborate.</p>
+                                </div>
+                            </div>
+                            <!-- <div class="gallery-inside__frame frame right">
+                                        
+                                    </div> -->
+                        </div>
+
+                    </div>
+
+                </section>
+                <section class="immerse" id="immerse">
+                    <div class="frames">
+                        <div class="frame back">
+                            <img class="frame__img" src="../images/canyon.png" alt="">
+                        </div>
+                        <div class="frame middle">
+                            <h3 class="frame__title">immerse</h3>
+                        </div>
+                        <div class="frame front">
+                            <img class="frame__img" src="../images/canyonFront.png" alt="">
+                        </div>
+                        <div class="immerse__content">
+                            <p class="immerse__text">YOURSELF IN THE ATMOSPHERE OF THE POST-APOCALYPSE</p>
+                            <div class="button">
+
+                                <button class="immerse__button button__inner hexagon">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="system">
+
+                </section>
+                <section class="release">
+                    <div class="wrapper">
+                        <div class="release__content">
+                            <h2 class="release__title title">DUSTLAND Release
+                            </h2>
+                            <p class="release__text">Coming in May, 2023 </p>
+                            <div class="button">
+                                <button class="button__inner release_button button hexagon">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer hexaTop">
+                <div class="wrapper">
+                    <div class="footer__inner">
+                        <ul class="footer__social flex social">
+                            <li class="social__item flex"><img src="../images/icons/discord.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/youtube.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/facebok.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/telegram.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/tweeter.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/instagram.svg" alt="" class="social__ico"></li>
+                            <li class="social__item flex"><img src="../images/icons/reddit.svg" alt="" class="social__ico"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+
+</html>
